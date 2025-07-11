@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/Calculator.css">
+  </head>
+
+  <body>
+    
+    <p class="js-result"></p>
+
+    <p>
+      <button onclick="
+        updateCalculation('1');
+        ">1
+      </button>
+
+      <button onclick="
+        updateCalculation('2');
+        ">2
+      </button>
+
+      <button onclick="
+        updateCalculation('3');
+        ">3
+      </button>
+
+      <button class="operator" onclick="
+        updateCalculation(' + ');
+        ">+
+      </button>
+      
+    </p>
+    
+    <p>
+      <button onclick="
+       updateCalculation('4');
+        ">4
+      </button>
+
+      <button onclick="
+        updateCalculation('5');"
+        >5
+      </button>
+
+      <button onclick="
+        updateCalculation('6');"
+        >6
+      </button>
+
+      <button class="operator" onclick="
+        updateCalculation(' - ');
+       ">-
+      </button>
+
+    </p>
+        <button onclick="
+         updateCalculation('7');
+          ">7
+        </button>
+
+        <button onclick="
+          updateCalculation('8');"
+          >8
+        </button>
+
+        <button onclick="
+          updateCalculation('9');"
+          >9
+        </button>
+
+        <button class="operator" onclick="
+          updateCalculation(' * ');;
+        ">*
+        </button>
+    <p>
+      <button onclick="
+       updateCalculation('0');"
+        >0
+      </button>
+
+      <button onclick="
+        updateCalculation('.');
+        ">.
+      </button>
+
+      <button onclick="
+        calculation=eval(calculation);
+        showCalculation();
+
+        localStorage.setItem('Calculation',calculation);
+       ">=
+      </button>
+
+      <button class="operator" onclick="
+        updateCalculation(' / ');
+        ">/
+      </button>
+
+    </p>
+    <button class="clear-button" onclick="
+      calculation='';
+      showCalculation();
+
+      localStorage.setItem('Calculation',calculation);
+      ">
+      Clear
+    </button>
+
+    <script src="scripts/Calculator.js"></script>
+
+  </body>
+</html>

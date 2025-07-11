@@ -1,0 +1,29 @@
+body{
+  margin:0px;
+  margin-left: 10px;
+  background-color: black;
+  font-family: Arial;
+}
+button{
+  font-size: 32px;
+  height:76px;
+  width:76px;
+  color:white;
+  border-radius:100px;
+  border-style: none;
+  background-color: rgb(51, 50, 50);
+  margin-right: 6px;
+  cursor:pointer;
+}
+.clear-button{
+  font-size: 17px;
+}
+.js-result{
+  margin-top: 20px;
+  margin-bottom: 16px;
+  color:white;
+  font-size: 56px;
+}
+.operator{
+  background-color: rgba(247, 154, 4, 0.979);
+}
