@@ -37,4 +37,16 @@ body{
       background-color: white;
       border:none;
       padding:10px 17px;
+      
+    }
+    .yes-button ,.no-button{
+      padding:8px;
+      font-size: 18px;
+      margin-left: 5px;
+    }
+    .confirmation-mssg{
+      color:white;
+      font-size: 20px;
+      display:inline-block;
+      
     }
