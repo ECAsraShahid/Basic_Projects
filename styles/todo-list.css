@@ -1,0 +1,32 @@
+body{
+  font-family: Arial;
+}
+.name , .date{
+  padding:8px;
+  font-size: 18px;
+  
+}
+.display-result , .top-line{
+  font-size: 18px;
+  display:grid;
+  grid-template-columns:245px 170px 120px ;
+  column-gap: 10px;
+  row-gap: 15px;
+  margin-bottom:15px;
+  align-items: center;
+}
+button{
+  font-size: 18px;
+  padding:10px;
+  color:white;
+  border:none;
+}
+.add-button{
+  background-color: green;
+}
+.delete-button{
+  background-color: rgb(132, 8, 8);
+}
+.title{
+  font-size: 18px;
+}
